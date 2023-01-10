@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+
+'''imports function from calculator_1'''
+
+
 if __name__ == "__main__":
     """prints the sum, diff, mul and div of 10 and 5."""
     from calculator_1 import add, sub, mul, div

@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
+
 '''replaces an element at a given position without modifying the list'''
+
 
 def new_in_list(my_list, idx, element):
     copy = my_list.copy()

@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
+
 '''adds two tuples'''
+
 
 def add_tuple(tuple_a=(), tuple_b=()):
     new_tuple = ()

@@ -6,8 +6,8 @@ import sys
 import MySQLdb
 
 if __name__ == "__main__":
-    a = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], a=sys.argv[3])
-    b = a.cursor()
+    db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
+    b = db.cursor()
     b.execute("SELECT `c`.`id`, `c`.`name`, `s`.`name` \
                  FROM `cities` as `c` \
                 INNER JOIN `states` as `s` \
